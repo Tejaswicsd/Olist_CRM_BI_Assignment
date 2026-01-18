@@ -1,0 +1,5 @@
+Field Used,Duplicates Found / Issue,Action Taken,Reason
+origin,60 blank values,Replaced with "unknown",Missing values corrected
+lead_type,6 inconsistent records,Replaced with "unknown",Inconsistent categorization
+All fields,Extra spaces,Applied TRIM,Data standardization
+mql_id,0 duplicates,No action required,Unique key maintained
