@@ -1,13 +1,12 @@
-"# Olist_CRM_BI_Assignment" 
-Project Title:
+📌 Project Title
 
 Data Quality Assessment and Funnel Analysis – Olist Marketing Dataset
 
-Objective of the Project
+🎯 Objective of the Project
 
-The main purpose of this project was to assess the quality of the Olist Marketing Funnel dataset, identify data issues, clean the data where required, and analyze the marketing funnel to provide meaningful business insights and recommendations.
+The goal of this project was to evaluate the quality of the Olist Marketing Funnel dataset, clean inconsistencies, remove duplicates, and analyze the marketing funnel to provide meaningful business insights.
 
-This project focuses on:
+This project covers:
 
 Data cleaning
 
@@ -17,11 +16,11 @@ Data quality reporting
 
 Funnel analysis
 
-Business insights
+Business recommendations
 
-CRM validation recommendations
+CRM validation rules
 
-Dataset Description
+📊 Dataset Description
 
 The dataset contains marketing funnel data with key fields such as:
 
@@ -33,25 +32,24 @@ landing_page_id
 
 origin
 
-Each record represents a marketing lead entering the funnel. The dataset was checked for duplicates, inconsistencies, and missing values before analysis.
+Each row represents a marketing lead entering the funnel. The dataset was validated for duplicates, inconsistencies, and missing values before analysis.
 
-Data Cleaning Steps Performed
-1. Duplicate Check and Removal
+🧹 Data Cleaning Steps Performed
+1️⃣ Duplicate Check and Removal
 
 Deduplication was done using mql_id as the unique identifier.
 
-Total duplicates found: 45 records (0.56%)
+45 duplicate records (0.56%) were identified and removed to ensure accuracy.
 
-These duplicates were removed to ensure accurate reporting.
-
-2. Standardization of Source Labels
+2️⃣ Standardization of Source Labels
 
 Inconsistent values like:
 
 "Social" vs "social"
+
 were standardized to maintain uniform reporting.
 
-3. Handling Missing or Ambiguous Records
+3️⃣ Handling Missing or Ambiguous Records
 
 Records with:
 
@@ -61,10 +59,7 @@ No clear lost status
 
 were flagged for review and excluded from conversion calculations until clarified.
 
-Funnel Analysis Summary
-
-Two stages showed the highest drop-off:
-
+📈 Funnel Analysis Summary
 Stage 1: Lead → Contact (15% drop-off)
 
 Issue: Some leads were never contacted.
@@ -73,57 +68,55 @@ Recommendations:
 
 Automatic lead assignment within 1 hour
 
-Alerts for leads not contacted within 24 hours
+Alerts for uncontacted leads older than 24 hours
 
 Review lead qualification criteria
 
 Stage 2: Contact → Conversion (85% drop-off)
 
-Issue: Majority of contacted leads did not convert.
+Issue: Most contacted leads did not convert.
 
 Recommendations:
 
-Introduce lead scoring
+Implement lead scoring
 
 Standard follow-up schedule (Day 1, 3, 7, 14, 30)
 
 Sales training on objection handling
 
-Add a “demo/trial” stage in funnel
+Add a “demo/trial” stage in the funnel
 
-Best Performing Channel
+🏆 Best Performing Channel
+🥇 Organic Search (Best Overall)
 
-Organic Search performed best in overall balance of:
-
-Lead volume
-
-Conversion rate
-
-Sustainability
-
-Metrics:
-
-3,456 leads (43% of total)
+3,456 leads (43%)
 
 12.3% conversion rate
 
 425 total deals
+Why best?
 
-Runner-up: Paid Search
+Sustainable
 
-Highest conversion rate (15.2%)
+Cost-effective
 
-Lower volume → suggests increasing budget
+High user intent
 
-Worst Performer: Social
+🥈 Paid Search (Runner-up)
+
+15.2% conversion rate (highest)
+
+Lower volume → recommend increasing budget
+
+❌ Social (Worst Performer)
 
 2,100 leads
 
-Only 4.8% conversion
+4.8% conversion rate
 
 Needs better targeting and strategy
 
-CRM Validation Rules Recommended
+🛡️ CRM Validation Rules Recommended
 
 If this data were imported into a CRM, the following rules should be enforced:
 
@@ -131,15 +124,15 @@ mql_id must be a valid 32-character hexadecimal string
 
 first_contact_date cannot be in the future or before 2017
 
-won_date must be after or equal to first_contact_date
+won_date must be ≥ first_contact_date
 
-origin field must not be blank (default: ‘unknown’ if missing)
+origin cannot be blank (default = ‘unknown’ if missing)
 
-Combination of mql_id + seller_id must be unique
+(mql_id, seller_id) must be unique to prevent duplicate deals
 
-Outputs of This Project
+📁 Project Outputs
 
-The following files were created as part of the assignment:
+The following files were created:
 
 Cleaned dataset
 
@@ -149,7 +142,7 @@ Data Quality Report (PDF)
 
 Short_Questions_Answers.docx
 
-Conclusion
+✅ Conclusion
 
 This project ensured that the marketing data is:
 
@@ -161,5 +154,4 @@ Consistent
 
 Business-ready
 
-The insights from the funnel analysis can help management improve lead handling, sales efficiency, and marketing strategy.
-
+The insights help management improve lead handling, sales efficiency, and marketing performance.
