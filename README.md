@@ -4,7 +4,7 @@
 
 ## ** Objective of the Project**
 
-The goal of this project was to evaluate the quality of the **Olist Marketing Funnel dataset**, clean inconsistencies, remove duplicates, and analyze the marketing funnel to generate actionable business insights.
+The goal of this project was to evaluate the quality of the **Olist Marketing Funnel dataset**, clean inconsistencies,remove duplicates, and analyze the marketing funnel to generate actionable business insights.
 
 This project covers:
 
@@ -147,5 +147,6 @@ The insights help management improve lead handling, sales efficiency, and overal
 ## **👤 Author**
 **Tejaswi Guttula**  
 Data Analytics & CRM Enthusiast  
+
 
 
