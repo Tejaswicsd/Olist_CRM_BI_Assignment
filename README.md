@@ -2,7 +2,7 @@
 
 ---
 
-## **🎯 Objective of the Project**
+## ** Objective of the Project**
 
 The goal of this project was to evaluate the quality of the **Olist Marketing Funnel dataset**, clean inconsistencies, remove duplicates, and analyze the marketing funnel to generate actionable business insights.
 
@@ -30,7 +30,7 @@ Each row represents a marketing lead entering the funnel. The dataset was valida
 
 ---
 
-## **🧹 Data Cleaning Steps Performed**
+## ** Data Cleaning Steps Performed**
 
 ### **1️⃣ Duplicate Check and Removal**
 
@@ -81,9 +81,9 @@ were flagged for review and excluded from conversion calculations until clarifie
 
 ---
 
-## **🏆 Best Performing Channels**
+## ** Best Performing Channels**
 
-### **🥇 Organic Search — Best Overall**
+### ** Organic Search — Best Overall**
 - **3,456 leads (43%)**
 - **12.3% conversion rate**
 - **425 total deals**
@@ -147,3 +147,4 @@ The insights help management improve lead handling, sales efficiency, and overal
 ## **👤 Author**
 **Tejaswi Guttula**  
 Data Analytics & CRM Enthusiast  
+
