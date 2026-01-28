@@ -120,7 +120,7 @@ If this data were imported into a CRM, the following rules should be enforced:
 
 ---
 
-## **📁 Project Outputs**
+## ** Project Outputs**
 
 The following deliverables were created:
 
@@ -147,4 +147,5 @@ The insights help management improve lead handling, sales efficiency, and overal
 ## **👤 Author**
 **Tejaswi Guttula**  
 Data Analytics & CRM Enthusiast  
+
 
